@@ -1,0 +1,14 @@
+September 18th morning report
+-----------------------------
+
+Done:
+- Environment (Zookeeper, Kafka, Spark, HBase) on Docker
+- Flow writing into Kafka topic -> Spark streaming -> processing -> preparation for writing to HBase
+- Solve dependencies problems
+- Flow HBase - Hive - Jupyter Notebook
+
+To Do:
+- Write into Kafka topic from Twitter API
+- Actual writing in HBase's 'tweets' table (making it work)
+- Integrate visualization with production data from 'tweets' table
+- Generate shell script for making everything work without much effort
